@@ -1,0 +1,2980 @@
+
+---
+events:
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:28 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    name: "ZephyrBuildConfiguration"
+    configs:
+      -
+        filename: "ZephyrBuildConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyrbuild-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: false
+      bypass_provider: false
+      names:
+        - "ZephyrBuild"
+      search_paths:
+        - "/home/khai/zephyrproject/zephyr/../*"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/khai/BC/BC_ICM20602/build/CMakeFiles/pkgRedirects/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/BC/BC_ICM20602/build/CMakeFiles/pkgRedirects/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/modules/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/modules/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/.venv/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/.venv/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/.west/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/.west/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/tools/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/tools/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/zephyr/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/zephyr/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/zephyr/cmake/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/zephyr/cmake/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/bootloader/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/bootloader/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/doc/ZephyrBuildConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/doc/zephyrbuild-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:41 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    name: "ZephyrAppConfiguration"
+    configs:
+      -
+        filename: "ZephyrAppConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyrapp-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: false
+      bypass_provider: false
+      names:
+        - "ZephyrApp"
+      search_paths:
+        - "/home/khai/BC/BC_ICM20602"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: false
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: false
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: false
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/khai/BC/BC_ICM20602/build/CMakeFiles/pkgRedirects/ZephyrAppConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/BC/BC_ICM20602/build/CMakeFiles/pkgRedirects/zephyrapp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/BC/BC_ICM20602/ZephyrAppConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/BC/BC_ICM20602/zephyrapp-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindZephyr-sdk.cmake:107 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindHostTools.cmake:51 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:115 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    name: "Zephyr-sdk"
+    components:
+      -
+        name: "LOAD"
+        required: false
+        found: false
+    configs:
+      -
+        filename: "Zephyr-sdkConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyr-sdk-config.cmake"
+        kind: "cmake"
+    version_request:
+      version: "0.0.0"
+      version_complete: "0.0.0"
+      exact: true
+    settings:
+      required: "optional"
+      quiet: true
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      names:
+        - "Zephyr-sdk"
+      search_paths:
+        - "/usr"
+        - "/usr/local"
+        - "/opt"
+        - "/home/khai"
+        - "/home/khai/.local"
+        - "/home/khai/.local/opt"
+        - "/home/khai/bin"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/khai/BC/BC_ICM20602/build/CMakeFiles/pkgRedirects/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/BC/BC_ICM20602/build/CMakeFiles/pkgRedirects/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/.venv/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/.venv/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/intelFPGA_lite/20.1/quartus/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/intelFPGA_lite/20.1/quartus/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/.local/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/.local/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/games/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/games/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/games/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/usr/local/games/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/snap/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/snap/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyr-sdk-1.0.1/cmake/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "insufficient_version"
+        message: "The version found is not compatible with the version requested."
+      -
+        path: "/home/khai/zephyr-sdk-1.0.1/cmake/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/opt/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyr-sdk-1.0.1/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyr-sdk-1.0.1/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyr-sdk-1.0.1/cmake/Zephyr-sdkConfig.cmake"
+        mode: "config"
+        reason: "insufficient_version"
+        message: "The version found is not compatible with the version requested."
+      -
+        path: "/home/khai/zephyr-sdk-1.0.1/cmake/zephyr-sdk-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found: null
+    search_context:
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindHostTools.cmake:54 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:115 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "GPERF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gperf"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/gperf"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/gperf"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/gperf"
+      - "/home/khai/zephyrproject/.venv/bin/gperf"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/gperf"
+      - "/home/khai/.local/bin/gperf"
+      - "/usr/local/sbin/gperf"
+      - "/usr/local/bin/gperf"
+      - "/usr/sbin/gperf"
+    found: "/usr/bin/gperf"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindHostTools.cmake:57 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:115 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "OPENOCD"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "openocd"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/openocd"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindHostTools.cmake:60 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:115 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "BOSSAC"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "bossac"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/bossac"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindHostTools.cmake:65 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:115 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "IMGTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "imgtool.py"
+      - "imgtool"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/khai/zephyrproject/bootloader/mcuboot/scripts/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/imgtool.py"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/imgtool"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/imgtool.py"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/imgtool"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/imgtool.py"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/imgtool"
+    found: "/home/khai/zephyrproject/bootloader/mcuboot/scripts/imgtool.py"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindHostTools.cmake:68 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:115 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "PTY_INTERFACE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "winpty"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/winpty"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/winpty"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/winpty"
+      - "/home/khai/zephyrproject/.venv/bin/winpty"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/winpty"
+      - "/home/khai/.local/bin/winpty"
+      - "/usr/local/sbin/winpty"
+      - "/usr/local/bin/winpty"
+      - "/usr/sbin/winpty"
+      - "/usr/bin/winpty"
+      - "/sbin/winpty"
+      - "/bin/winpty"
+      - "/usr/games/winpty"
+      - "/usr/local/games/winpty"
+      - "/snap/bin/winpty"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/compiler/gcc/generic.cmake:5 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindHostTools.cmake:125 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/dts.cmake:9 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:115 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcc"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/aarch64-zephyr-elf/bin/aarch64-zephyr-elf-gcc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindDtc.cmake:19 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/dts.cmake:10 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:115 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "DTC"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dtc"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/dtc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindCcache.cmake:26 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:29 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:68 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CCACHE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ccache"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/ccache"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/ccache"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/ccache"
+      - "/home/khai/zephyrproject/.venv/bin/ccache"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/ccache"
+      - "/home/khai/.local/bin/ccache"
+      - "/usr/local/sbin/ccache"
+      - "/usr/local/bin/ccache"
+      - "/usr/sbin/ccache"
+    found: "/usr/bin/ccache"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/compiler/gcc/target.cmake:8 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:116 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:68 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/compiler/gcc/target.cmake:9 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:116 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:68 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_GCOV"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcov"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcov"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/compiler/gcc/target.cmake:27 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:116 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:68 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-g++"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-g++"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/bintools/gnu/target.cmake:5 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:119 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:68 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-objcopy"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-objcopy"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/bintools/gnu/target.cmake:6 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:119 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:68 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-objdump"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-objdump"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/bintools/gnu/target.cmake:7 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:119 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:68 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_AS"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-as"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-as"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/bintools/gnu/target.cmake:12 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:119 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:68 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-ar"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/bintools/gnu/target.cmake:13 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:119 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:68 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-ranlib"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/bintools/gnu/target.cmake:15 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:119 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:68 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-readelf"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-readelf"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/bintools/gnu/target.cmake:16 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:119 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:68 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-nm"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-nm"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/bintools/gnu/target.cmake:17 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:119 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:68 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-strip"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-strip"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/bintools/gnu/target.cmake:19 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:119 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:68 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_GDB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gdb-py"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gdb-py"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/bintools/gnu/target.cmake:31 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/FindTargetTools.cmake:119 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:68 (find_package)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_GDB_NO_PY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gdb"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gdb"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:12 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:172 (project)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_UNAME"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "uname"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/uname"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/uname"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/uname"
+      - "/home/khai/zephyrproject/.venv/bin/uname"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/uname"
+      - "/home/khai/.local/bin/uname"
+      - "/usr/local/sbin/uname"
+      - "/usr/local/bin/uname"
+      - "/usr/sbin/uname"
+    found: "/usr/bin/uname"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:207 (message)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:172 (project)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    message: |
+      The target system is: Generic - 4.4.99 - xtensa
+      The host system is: Linux - 7.0.0-31-generic - x86_64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeNinjaFindMake.cmake:5 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:172 (project)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Program used to build from build.ninja files."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ninja-build"
+      - "ninja"
+      - "samu"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/ninja-build"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/ninja"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/samu"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/ninja-build"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/ninja"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/samu"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/ninja-build"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/ninja"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/samu"
+      - "/home/khai/zephyrproject/.venv/bin/ninja-build"
+      - "/home/khai/zephyrproject/.venv/bin/ninja"
+      - "/home/khai/zephyrproject/.venv/bin/samu"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/ninja-build"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/ninja"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/samu"
+      - "/home/khai/.local/bin/ninja-build"
+      - "/home/khai/.local/bin/ninja"
+      - "/home/khai/.local/bin/samu"
+      - "/usr/local/sbin/ninja-build"
+      - "/usr/local/sbin/ninja"
+      - "/usr/local/sbin/samu"
+      - "/usr/local/bin/ninja-build"
+      - "/usr/local/bin/ninja"
+      - "/usr/local/bin/samu"
+      - "/usr/sbin/ninja-build"
+      - "/usr/sbin/ninja"
+      - "/usr/sbin/samu"
+      - "/usr/bin/ninja-build"
+    found: "/usr/bin/ninja"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:172 (project)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:172 (project)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/khai/BC/BC_ICM20602/build/CMakeFiles/4.2.3/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:172 (project)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-espressif_esp32s3_zephyr-elf-dlltool"
+      - "dlltool"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-dlltool"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-dlltool"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-dlltool"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-dlltool"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-dlltool"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-dlltool"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-dlltool"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-dlltool"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-dlltool"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-dlltool"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-dlltool"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-dlltool"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-dlltool"
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/dlltool"
+      - "/home/khai/zephyrproject/.venv/bin/dlltool"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/dlltool"
+      - "/home/khai/.local/bin/dlltool"
+      - "/usr/local/sbin/dlltool"
+      - "/usr/local/bin/dlltool"
+      - "/usr/sbin/dlltool"
+      - "/usr/bin/dlltool"
+      - "/sbin/dlltool"
+      - "/bin/dlltool"
+      - "/usr/games/dlltool"
+      - "/usr/local/games/dlltool"
+      - "/snap/bin/dlltool"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:172 (project)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-espressif_esp32s3_zephyr-elf-addr2line"
+      - "addr2line"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-addr2line"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:200 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:172 (project)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-espressif_esp32s3_zephyr-elf-tapi"
+      - "tapi"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-tapi"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-tapi"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-tapi"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-tapi"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-tapi"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-tapi"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-tapi"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-tapi"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-tapi"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-tapi"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-tapi"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-tapi"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-tapi"
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/tapi"
+      - "/home/khai/zephyrproject/.venv/bin/tapi"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/tapi"
+      - "/home/khai/.local/bin/tapi"
+      - "/usr/local/sbin/tapi"
+      - "/usr/local/bin/tapi"
+      - "/usr/sbin/tapi"
+      - "/usr/bin/tapi"
+      - "/sbin/tapi"
+      - "/bin/tapi"
+      - "/usr/games/tapi"
+      - "/usr/local/games/tapi"
+      - "/snap/bin/tapi"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:172 (project)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ar"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:201 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:172 (project)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_C_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:172 (project)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/usr/share/cmake-4.2/Modules/"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/"
+    found: "/usr/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:172 (project)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-g++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/khai/BC/BC_ICM20602/build/CMakeFiles/4.2.3/CompilerIdCXX/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:172 (project)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ar"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14.3"
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-14"
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar14"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:172 (project)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14.3"
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-14"
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib14"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:54 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:61 (_cmake_find_compiler)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:178 (enable_language)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER"
+    description: "ASM compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:1290 (message)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:170 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:178 (enable_language)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    message: |
+      Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      xtensa-espressif_esp32s3_zephyr-elf-gcc (Zephyr SDK 1.0.1) 14.3.0
+      Copyright (C) 2024 Free Software Foundation, Inc.
+      This is free software; see the source for copying conditions.  There is NO
+      warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:178 (enable_language)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ar"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ar"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar-"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ar"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/usr/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "/usr/share/cmake-4.2/Modules/CMakeDetermineASMCompiler.cmake:268 (include)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/kernel.cmake:178 (enable_language)"
+      - "/home/khai/zephyrproject/zephyr/cmake/modules/zephyr_default.cmake:133 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:57 (include)"
+      - "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake:83 (include_boilerplate)"
+      - "CMakeLists.txt:3 (find_package)"
+    mode: "program"
+    variable: "CMAKE_ASM_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib"
+      - "xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/home/khai/zephyrproject/.venv/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/home/khai/.local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/usr/local/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/usr/local/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/usr/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/usr/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/sbin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/usr/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/usr/local/games/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+      - "/snap/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib-"
+    found: "/home/khai/zephyr-sdk-1.0.1/gnu/xtensa-espressif_esp32s3_zephyr-elf/bin/xtensa-espressif_esp32s3_zephyr-elf-gcc-ranlib"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/soc/espressif/common/CMakeLists.txt:5 (find_program)"
+    mode: "program"
+    variable: "ESPTOOL_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "esptool"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/esptool"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/esptool"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/esptool"
+    found: "/home/khai/zephyrproject/.venv/bin/esptool"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/kobj.cmake:3 (find_program)"
+      - "/home/khai/zephyrproject/zephyr/CMakeLists.txt:988 (include)"
+    mode: "program"
+    variable: "GEN_KOBJECT_LIST"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gen_kobject_list"
+      - "gen_kobject_list.py"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+      - "/home/khai/zephyrproject/zephyr/scripts/build/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/gen_kobject_list"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/gen_kobject_list"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/gen_kobject_list"
+      - "/home/khai/zephyrproject/.venv/bin/gen_kobject_list"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/gen_kobject_list"
+      - "/home/khai/.local/bin/gen_kobject_list"
+      - "/usr/local/sbin/gen_kobject_list"
+      - "/usr/local/bin/gen_kobject_list"
+      - "/usr/sbin/gen_kobject_list"
+      - "/usr/bin/gen_kobject_list"
+      - "/sbin/gen_kobject_list"
+      - "/bin/gen_kobject_list"
+      - "/usr/games/gen_kobject_list"
+      - "/usr/local/games/gen_kobject_list"
+      - "/snap/bin/gen_kobject_list"
+      - "/home/khai/zephyrproject/zephyr/scripts/build/gen_kobject_list"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/gen_kobject_list.py"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/gen_kobject_list.py"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/gen_kobject_list.py"
+      - "/home/khai/zephyrproject/.venv/bin/gen_kobject_list.py"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/gen_kobject_list.py"
+      - "/home/khai/.local/bin/gen_kobject_list.py"
+      - "/usr/local/sbin/gen_kobject_list.py"
+      - "/usr/local/bin/gen_kobject_list.py"
+      - "/usr/sbin/gen_kobject_list.py"
+      - "/usr/bin/gen_kobject_list.py"
+      - "/sbin/gen_kobject_list.py"
+      - "/bin/gen_kobject_list.py"
+      - "/usr/games/gen_kobject_list.py"
+      - "/usr/local/games/gen_kobject_list.py"
+      - "/snap/bin/gen_kobject_list.py"
+    found: "/home/khai/zephyrproject/zephyr/scripts/build/gen_kobject_list.py"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/reports/CMakeLists.txt:115 (find_program)"
+    mode: "program"
+    variable: "PUNCOVER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "puncover"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/puncover"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/puncover"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/puncover"
+      - "/home/khai/zephyrproject/.venv/bin/puncover"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/puncover"
+      - "/home/khai/.local/bin/puncover"
+      - "/usr/local/sbin/puncover"
+      - "/usr/local/bin/puncover"
+      - "/usr/sbin/puncover"
+      - "/usr/bin/puncover"
+      - "/sbin/puncover"
+      - "/bin/puncover"
+      - "/usr/games/puncover"
+      - "/usr/local/games/puncover"
+      - "/snap/bin/puncover"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/home/khai/zephyrproject/zephyr/cmake/reports/CMakeLists.txt:143 (find_program)"
+    mode: "program"
+    variable: "PAHOLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "pahole"
+    candidate_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/"
+      - "/home/khai/zephyrproject/.venv/bin/"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/"
+      - "/home/khai/.local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/bin/"
+      - "/usr/sbin/"
+      - "/usr/bin/"
+      - "/sbin/"
+      - "/bin/"
+      - "/usr/games/"
+      - "/usr/local/games/"
+      - "/snap/bin/"
+    searched_directories:
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/bin/pahole"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/sbin/pahole"
+      - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr/pahole"
+      - "/home/khai/zephyrproject/.venv/bin/pahole"
+      - "/home/khai/intelFPGA_lite/20.1/quartus/bin/pahole"
+      - "/home/khai/.local/bin/pahole"
+      - "/usr/local/sbin/pahole"
+      - "/usr/local/bin/pahole"
+      - "/usr/sbin/pahole"
+      - "/usr/bin/pahole"
+      - "/sbin/pahole"
+      - "/bin/pahole"
+      - "/usr/games/pahole"
+      - "/usr/local/games/pahole"
+      - "/snap/bin/pahole"
+    found: false
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PROGRAM_PATH:
+        - "/bin"
+  -
+    kind: "find_package-v1"
+    backtrace:
+      - "CMakeLists.txt:3 (find_package)"
+    name: "Zephyr"
+    configs:
+      -
+        filename: "ZephyrConfig.cmake"
+        kind: "cmake"
+      -
+        filename: "zephyr-config.cmake"
+        kind: "cmake"
+    version_request:
+      exact: false
+    settings:
+      required: "required_explicit"
+      quiet: false
+      global: false
+      policy_scope: true
+      bypass_provider: false
+      hints:
+        - "/home/khai/zephyrproject/zephyr"
+      names:
+        - "Zephyr"
+      path_suffixes:
+        - ""
+      paths:
+        CMAKE_FIND_USE_CMAKE_PATH: true
+        CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+        CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+        CMAKE_FIND_USE_INSTALL_PREFIX: true
+        CMAKE_FIND_USE_PACKAGE_ROOT_PATH: true
+        CMAKE_FIND_USE_CMAKE_PACKAGE_REGISTRY: true
+        CMAKE_FIND_USE_SYSTEM_PACKAGE_REGISTRY: true
+        CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
+    candidates:
+      -
+        path: "/home/khai/BC/BC_ICM20602/build/CMakeFiles/pkgRedirects/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/BC/BC_ICM20602/build/CMakeFiles/pkgRedirects/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/zephyr/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/zephyr/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/zephyr/cmake/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/zephyr/cmake/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/zephyr/share/zephyr-package/ZephyrConfig.cmake"
+        mode: "config"
+        reason: "no_exist"
+      -
+        path: "/home/khai/zephyrproject/zephyr/share/zephyr-package/zephyr-config.cmake"
+        mode: "config"
+        reason: "no_exist"
+    found:
+      path: "/home/khai/zephyrproject/zephyr/share/zephyr-package/cmake/ZephyrConfig.cmake"
+      mode: "config"
+      version: "4.4.99"
+    search_context:
+      CMAKE_PREFIX_PATH:
+        - "/home/khai/zephyr-sdk-1.0.1/hosttools/sysroots/x86_64-pokysdk-linux/usr"
+      ENV{PATH}:
+        - "/home/khai/zephyrproject/.venv/bin"
+        - "/home/khai/intelFPGA_lite/20.1/quartus/bin"
+        - "/home/khai/.local/bin"
+        - "/usr/local/sbin"
+        - "/usr/local/bin"
+        - "/usr/sbin"
+        - "/usr/bin"
+        - "/sbin"
+        - "/bin"
+        - "/usr/games"
+        - "/usr/local/games"
+        - "/snap/bin"
+        - "/snap/bin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+...

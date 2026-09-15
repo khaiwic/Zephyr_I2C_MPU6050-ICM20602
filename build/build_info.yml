@@ -1,0 +1,63 @@
+cmake:
+  application:
+    configuration-dir: '/home/khai/BC/BC_ICM20602'
+    source-dir: '/home/khai/BC/BC_ICM20602'
+  board:
+    name: 'esp32s3_devkitc'
+    path:
+     - '/home/khai/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc'
+    qualifiers: 'esp32s3/procpu'
+    revision: ''
+  devicetree:
+    bindings-dirs:
+     - '/home/khai/zephyrproject/zephyr/dts/bindings'
+    files:
+     - '/home/khai/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu.dts'
+     - '/home/khai/BC/BC_ICM20602/boards/esp32s3_devkitc_esp32s3_procpu.overlay'
+    include-dirs:
+     - '/home/khai/zephyrproject/modules/hal/ambiq/dts'
+     - '/home/khai/zephyrproject/modules/hal/atmel/include'
+     - '/home/khai/zephyrproject/modules/hal/bouffalolab/include'
+     - '/home/khai/zephyrproject/modules/hal/bouffalolab/include/zephyr'
+     - '/home/khai/zephyrproject/modules/hal/gigadevice/include'
+     - '/home/khai/zephyrproject/modules/hal/infineon/dts'
+     - '/home/khai/zephyrproject/modules/hal/microchip/include'
+     - '/home/khai/zephyrproject/modules/hal/microchip/dts'
+     - '/home/khai/zephyrproject/modules/hal/nuvoton/dts'
+     - '/home/khai/zephyrproject/modules/hal/nxp/dts'
+     - '/home/khai/zephyrproject/modules/hal/stm32/dts'
+     - '/home/khai/zephyrproject/modules/hal/ti/dts'
+     - '/home/khai/BC/BC_ICM20602/include'
+     - '/home/khai/zephyrproject/zephyr/include'
+     - '/home/khai/zephyrproject/zephyr/include/zephyr'
+     - '/home/khai/zephyrproject/zephyr/dts/common'
+     - '/home/khai/zephyrproject/zephyr/dts/vendor'
+     - '/home/khai/zephyrproject/zephyr/dts/rx'
+     - '/home/khai/zephyrproject/zephyr/dts/x86'
+     - '/home/khai/zephyrproject/zephyr/dts/xtensa'
+     - '/home/khai/zephyrproject/zephyr/dts/sparc'
+     - '/home/khai/zephyrproject/zephyr/dts/riscv'
+     - '/home/khai/zephyrproject/zephyr/dts/posix'
+     - '/home/khai/zephyrproject/zephyr/dts/arm64'
+     - '/home/khai/zephyrproject/zephyr/dts/arm'
+     - '/home/khai/zephyrproject/zephyr/dts/arc'
+     - '/home/khai/zephyrproject/zephyr/dts'
+    user-files:
+     - '/home/khai/BC/BC_ICM20602/boards/esp32s3_devkitc_esp32s3_procpu.overlay'
+  kconfig:
+    files:
+     - '/home/khai/zephyrproject/zephyr/boards/espressif/esp32s3_devkitc/esp32s3_devkitc_procpu_defconfig'
+     - '/home/khai/BC/BC_ICM20602/prj.conf'
+    user-files:
+     - '/home/khai/BC/BC_ICM20602/prj.conf'
+  toolchain:
+    name: 'zephyr'
+    path: '/home/khai/zephyr-sdk-1.0.1'
+  zephyr:
+    version: '4.4.99'
+    zephyr-base: '/home/khai/zephyrproject/zephyr'
+version: '0.1.0'
+west:
+  command: '/home/khai/zephyrproject/.venv/bin/west build -p always -b esp32s3_devkitc/esp32s3/procpu .'
+  topdir: '/home/khai/zephyrproject'
+  version: '1.5.0'

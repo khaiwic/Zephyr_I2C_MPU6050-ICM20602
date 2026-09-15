@@ -1,0 +1,30 @@
+#include <zephyr/dt-bindings/i2c/i2c.h>
+#include <zephyr/dt-bindings/pinctrl/esp32s3-pinctrl.h>
+
+/ {
+    aliases {
+        sensor-i2c = &i2c1;
+    };
+};
+
+&pinctrl {
+    i2c1_default: i2c1_default {
+        group1 {
+            pinmux = <I2C1_SCL_GPIO10>, <I2C1_SDA_GPIO11>;
+            drive-open-drain;
+            bias-pull-up;
+        };
+    };
+};
+
+&i2c1 {
+    status = "okay";
+    clock-frequency = <I2C_BITRATE_STANDARD>;
+    pinctrl-0 = <&i2c1_default>;
+    pinctrl-names = "default";
+
+    icm20602: icm20602@68 {
+        compatible = "invensense,icm20602";
+        reg = <0x68>;
+    };
+};
